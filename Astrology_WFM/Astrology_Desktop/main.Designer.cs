@@ -1,6 +1,6 @@
 ﻿namespace Astrology_Desktop
 {
-    partial class Form1
+    partial class main
     {
         /// <summary>
         ///  Required designer variable.
@@ -47,7 +47,9 @@
             panelShadow = new Panel();
             panel1 = new Panel();
             panelDesktop = new Panel();
-            textBox1 = new TextBox();
+            labelTestowyu = new Label();
+            labelWybranaData = new Label();
+            wybranaDataDateTimePicker = new DateTimePicker();
             panelMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)homeBtn).BeginInit();
@@ -343,24 +345,46 @@
             // 
             // panelDesktop
             // 
-            panelDesktop.BackColor = Color.FromArgb(13, 32, 89);
+            panelDesktop.BackColor = Color.FromArgb(9, 26, 80);
+            panelDesktop.Controls.Add(labelTestowyu);
+            panelDesktop.Controls.Add(labelWybranaData);
+            panelDesktop.Controls.Add(wybranaDataDateTimePicker);
             panelDesktop.Controls.Add(panelShadowSide);
-            panelDesktop.Controls.Add(textBox1);
             panelDesktop.Dock = DockStyle.Fill;
             panelDesktop.Location = new Point(220, 82);
             panelDesktop.Name = "panelDesktop";
             panelDesktop.Size = new Size(829, 495);
             panelDesktop.TabIndex = 3;
             // 
-            // textBox1
+            // labelTestowyu
             // 
-            textBox1.Location = new Point(210, 118);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(363, 23);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "Wybrałeś datę: ";
+            labelTestowyu.AutoSize = true;
+            labelTestowyu.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTestowyu.ForeColor = Color.WhiteSmoke;
+            labelTestowyu.Location = new Point(284, 313);
+            labelTestowyu.Name = "labelTestowyu";
+            labelTestowyu.Size = new Size(0, 25);
+            labelTestowyu.TabIndex = 4;
             // 
-            // Form1
+            // labelWybranaData
+            // 
+            labelWybranaData.AutoSize = true;
+            labelWybranaData.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelWybranaData.ForeColor = Color.WhiteSmoke;
+            labelWybranaData.Location = new Point(157, 118);
+            labelWybranaData.Name = "labelWybranaData";
+            labelWybranaData.Size = new Size(470, 50);
+            labelWybranaData.TabIndex = 3;
+            labelWybranaData.Text = "Wybrana data urodzenia: ";
+            // 
+            // wybranaDataDateTimePicker
+            // 
+            wybranaDataDateTimePicker.Location = new Point(294, 215);
+            wybranaDataDateTimePicker.Name = "wybranaDataDateTimePicker";
+            wybranaDataDateTimePicker.Size = new Size(200, 23);
+            wybranaDataDateTimePicker.TabIndex = 2;
+            // 
+            // main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -369,8 +393,8 @@
             Controls.Add(panelShadow);
             Controls.Add(panelTitle);
             Controls.Add(panelMenu);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "main";
+            Text = "Astrology";
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)homeBtn).EndInit();
@@ -399,11 +423,13 @@
         private Label currentLabel;
         private Panel panelShadow;
         private Panel panelDesktop;
-        private TextBox textBox1;
         private FontAwesome.Sharp.IconButton mini;
         private FontAwesome.Sharp.IconButton close;
         private FontAwesome.Sharp.IconButton max;
         private Panel panelShadowSide;
         private Panel panel1;
+        private DateTimePicker wybranaDataDateTimePicker;
+        private Label labelWybranaData;
+        private Label labelTestowyu;
     }
 }

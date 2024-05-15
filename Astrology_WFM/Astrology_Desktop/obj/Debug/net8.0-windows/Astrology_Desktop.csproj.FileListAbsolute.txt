@@ -5,7 +5,6 @@ C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\Astrology_Desktop.pdb
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.csproj.AssemblyReference.cache
-C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.Form1.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.csproj.GenerateResource.cache
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.AssemblyInfoInputs.cache
@@ -25,3 +24,7 @@ C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.Forms.FormZe.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.Forms.FormZn.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.Forms.FormHome.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.main.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.sourcelink.json
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.welcome.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.zodiac.resources

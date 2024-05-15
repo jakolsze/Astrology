@@ -28,23 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dateTimePicker1 = new DateTimePicker();
+            resetDateTimePicker = new DateTimePicker();
+            resetButton = new Button();
             SuspendLayout();
             // 
-            // dateTimePicker1
+            // resetDateTimePicker
             // 
-            dateTimePicker1.Location = new Point(274, 163);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 0;
+            resetDateTimePicker.Location = new Point(306, 162);
+            resetDateTimePicker.Name = "resetDateTimePicker";
+            resetDateTimePicker.Size = new Size(200, 23);
+            resetDateTimePicker.TabIndex = 0;
+            // 
+            // resetButton
+            // 
+            resetButton.Location = new Point(364, 245);
+            resetButton.Name = "resetButton";
+            resetButton.Size = new Size(75, 23);
+            resetButton.TabIndex = 1;
+            resetButton.Text = "Potiwerdź";
+            resetButton.UseVisualStyleBackColor = true;
+            resetButton.Click += resetButton_Click;
             // 
             // FormHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 32, 89);
-            ClientSize = new Size(800, 450);
-            Controls.Add(dateTimePicker1);
+            BackColor = Color.FromArgb(9, 26, 80);
+            ClientSize = new Size(813, 456);
+            Controls.Add(resetButton);
+            Controls.Add(resetDateTimePicker);
             Name = "FormHome";
             Text = "FormDashboard";
             ResumeLayout(false);
@@ -52,6 +64,7 @@
 
         #endregion
 
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker resetDateTimePicker;
+        private Button resetButton;
     }
 }

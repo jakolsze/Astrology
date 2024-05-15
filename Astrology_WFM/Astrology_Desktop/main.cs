@@ -6,17 +6,20 @@ using System.Runtime.InteropServices;
 
 namespace Astrology_Desktop
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
 
         //Fields
         private Panel leftBorderBtn;
         private IconButton currentBtn;
         private Form currentChildForm;
-
-        public Form1()
+        public static main instance; 
+        private String wybranaDataStringPassed = welcome.instance.WybranaDataString;
+        private DateTime wybranaDataPassed = welcome.instance.wybranaData; 
+        public main()
         {
             InitializeComponent();
+            instance = this;
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelMenu.Controls.Add(leftBorderBtn);
@@ -26,6 +29,8 @@ namespace Astrology_Desktop
             this.DoubleBuffered = true;
             //topbar 
             //this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            this.StartPosition = FormStartPosition.CenterScreen;
+            Welcome_Load();
         }
 
         private struct RGBColors
@@ -62,6 +67,10 @@ namespace Astrology_Desktop
 
 
             }
+        }
+        private void Welcome_Load()
+        {
+            wybranaDataDateTimePicker.Value = welcome.instance.wybranaData;
         }
 
         private void DisableButton()
@@ -103,7 +112,6 @@ namespace Astrology_Desktop
         {
 
         }
-
         private void zeBtn_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, RGBColors.color1);

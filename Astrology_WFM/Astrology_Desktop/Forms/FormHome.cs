@@ -16,5 +16,13 @@ namespace Astrology_Desktop.Forms
         {
             InitializeComponent();
         }
+
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+            welcome.instance.wybranaData = resetDateTimePicker.Value;
+            main form = new main();
+            this.Hide();
+            form.Show();
+        }
     }
 }
