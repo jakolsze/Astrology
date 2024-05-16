@@ -28,3 +28,8 @@ C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.sourcelink.json
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.welcome.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Debug\net8.0-windows\Astrology_Desktop.zodiac.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\Azure.AI.OpenAI.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Debug\net8.0-windows\System.Memory.Data.dll

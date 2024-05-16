@@ -44,8 +44,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 32, 89);
-            ClientSize = new Size(800, 450);
+            BackColor = Color.FromArgb(9, 26, 80);
+            ClientSize = new Size(813, 456);
             Controls.Add(listBox1);
             Name = "FormZn";
             Text = "FormZn";

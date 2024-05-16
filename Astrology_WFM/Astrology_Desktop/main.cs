@@ -4,6 +4,8 @@ using FontAwesome.Sharp;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Azure;
+using Azure.AI.OpenAI;
 
 namespace Astrology_Desktop
 {
@@ -44,6 +46,8 @@ namespace Astrology_Desktop
             // Ustaw tekst dymka dla pictureBox1
             toolTip1.SetToolTip(this.homeBtn, "Wybierz nową datę");
 
+            // openAI
+            chatgpt();
         }
 
         private struct RGBColors
@@ -84,7 +88,7 @@ namespace Astrology_Desktop
         public void Welcome_Load()
         {
             wybranaDataDateTimePicker.Value = welcome.instance.wybranaData;
-            label1.Text = wybranaDataDateTimePicker.Value.ToString("dd-MM-yyyy");
+            //label1.Text = wybranaDataDateTimePicker.Value.ToString("dd-MM-yyyy");
 
         }
 
@@ -209,6 +213,34 @@ namespace Astrology_Desktop
         private void mini_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+        public async Task chatgpt()
+        {
+
+            string pies = "Podaj 3 slawne osoby urodzne w dniu: ";
+            string kot = wybranaDataDateTimePicker.Value.ToString("dd-MM");
+            string query = pies + kot;
+
+
+            OpenAIClient client = new OpenAIClient("sk-proj-hs2lXSTjAWNllnWm6PHET3BlbkFJmomnrkPU1T9zzwUkG9oe");
+            // Przygotowanie opcji dla zapytania
+
+            var chatCompletionsOptions = new ChatCompletionsOptions()
+            {
+                DeploymentName = "gpt-3.5-turbo", // Use DeploymentName for "model" with non-Azure clients
+                Messages =
+                  {
+                      new ChatRequestSystemMessage(query),
+                  }
+            };
+            
+            // Wywołanie metody GetChatCompletionsAsync i oczekiwanie na odpowiedź
+            var response = await client.GetChatCompletionsAsync(chatCompletionsOptions);
+            var completions = response.Value.Choices[0].Message.Content;
+
+            // Wyświetlenie odpowiedzi
+            gptFamLabel.Text=completions;
+            //gptFamLabel.Text = query;
         }
 
     }

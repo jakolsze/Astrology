@@ -16,6 +16,8 @@ namespace Astrology_Desktop
         public static welcome instance;
         public string WybranaDataString;
         public DateTime wybranaData;
+        public int flag;
+        public string pamiec;
         public welcome()
         {
             InitializeComponent();
@@ -27,6 +29,7 @@ namespace Astrology_Desktop
         {
             WybranaDataString = dateTimePicker1.Value.ToString("dd-MM-yyyy");
             wybranaData = dateTimePicker1.Value;
+            flag = 0;
             main form = new main();
             this.Hide();
             form.Show();

@@ -16,5 +16,15 @@ namespace Astrology_Desktop.Forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            labelChoice.Text = "SUPER! Bardzo się cieszę!";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            labelChoice.Text = "Daj mi proszę znać co mógłbym poprawić!";
+        }
     }
 }

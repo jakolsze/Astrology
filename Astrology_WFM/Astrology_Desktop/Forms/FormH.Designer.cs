@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            labelH = new Label();
             SuspendLayout();
             // 
-            // pictureBox1
+            // labelH
             // 
-            pictureBox1.Image = Properties.Resources.astrology_logo_small;
-            pictureBox1.Location = new Point(206, 269);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(254, 111);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            labelH.Anchor = AnchorStyles.None;
+            labelH.Font = new Font("Segoe UI", 12F);
+            labelH.ForeColor = Color.WhiteSmoke;
+            labelH.Location = new Point(156, 92);
+            labelH.Name = "labelH";
+            labelH.Size = new Size(575, 301);
+            labelH.TabIndex = 0;
+            labelH.Text = "Trwa wczytywanie horoskopu";
             // 
             // FormH
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 32, 89);
-            ClientSize = new Size(800, 450);
-            Controls.Add(pictureBox1);
+            BackColor = Color.FromArgb(9, 26, 80);
+            ClientSize = new Size(813, 456);
+            Controls.Add(labelH);
             Name = "FormH";
             Text = "FormH";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private Label labelH;
     }
 }

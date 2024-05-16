@@ -21,6 +21,7 @@ namespace Astrology_Desktop.Forms
         private void resetButton_Click(object sender, EventArgs e)
         {
             welcome.instance.wybranaData = resetDateTimePicker.Value;
+            welcome.instance.flag = 0;
             this.Hide();
             main.instance.Close();
             main newForm = new main(); // Tworzenie nowego formularza

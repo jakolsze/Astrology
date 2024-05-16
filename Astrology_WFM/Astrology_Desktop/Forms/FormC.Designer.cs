@@ -28,27 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            checkBox1 = new CheckBox();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            labelChoice = new Label();
             SuspendLayout();
             // 
-            // checkBox1
+            // label1
             // 
-            checkBox1.Anchor = AnchorStyles.None;
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(375, 195);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            label1.Anchor = AnchorStyles.None;
+            label1.Location = new Point(290, 146);
+            label1.Name = "label1";
+            label1.Size = new Size(385, 101);
+            label1.TabIndex = 1;
+            label1.Text = "Czy podoba ci się ta aplikacja?";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(247, 258);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(406, 258);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 3;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // labelChoice
+            // 
+            labelChoice.AutoSize = true;
+            labelChoice.Location = new Point(345, 346);
+            labelChoice.Name = "labelChoice";
+            labelChoice.Size = new Size(16, 15);
+            labelChoice.TabIndex = 4;
+            labelChoice.Text = "...";
             // 
             // FormC
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(13, 32, 89);
-            ClientSize = new Size(800, 450);
-            Controls.Add(checkBox1);
+            BackColor = Color.FromArgb(9, 26, 80);
+            ClientSize = new Size(813, 456);
+            Controls.Add(labelChoice);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label1);
             Name = "FormC";
             Text = "FormC";
             ResumeLayout(false);
@@ -57,6 +90,9 @@
 
         #endregion
 
-        private CheckBox checkBox1;
+        private Label label1;
+        private Button button1;
+        private Button button2;
+        private Label labelChoice;
     }
 }

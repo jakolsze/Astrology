@@ -34,6 +34,7 @@
             // 
             // zodiacPicture
             // 
+            zodiacPicture.Anchor = AnchorStyles.None;
             zodiacPicture.Location = new Point(0, 0);
             zodiacPicture.Name = "zodiacPicture";
             zodiacPicture.Size = new Size(813, 456);

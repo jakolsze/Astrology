@@ -47,7 +47,8 @@
             panelShadow = new Panel();
             panel1 = new Panel();
             panelDesktop = new Panel();
-            label1 = new Label();
+            label2 = new Label();
+            gptFamLabel = new Label();
             labelTestowyu = new Label();
             labelWybranaData = new Label();
             wybranaDataDateTimePicker = new DateTimePicker();
@@ -347,7 +348,8 @@
             // panelDesktop
             // 
             panelDesktop.BackColor = Color.FromArgb(9, 26, 80);
-            panelDesktop.Controls.Add(label1);
+            panelDesktop.Controls.Add(label2);
+            panelDesktop.Controls.Add(gptFamLabel);
             panelDesktop.Controls.Add(labelTestowyu);
             panelDesktop.Controls.Add(labelWybranaData);
             panelDesktop.Controls.Add(wybranaDataDateTimePicker);
@@ -358,14 +360,28 @@
             panelDesktop.Size = new Size(829, 495);
             panelDesktop.TabIndex = 3;
             // 
-            // label1
+            // label2
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(351, 327);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 5;
-            label1.Text = "label1";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F);
+            label2.ForeColor = Color.WhiteSmoke;
+            label2.Location = new Point(253, 298);
+            label2.Name = "label2";
+            label2.Size = new Size(261, 21);
+            label2.TabIndex = 6;
+            label2.Text = "Slawne osoby urodzone w tym dniu:";
+            // 
+            // gptFamLabel
+            // 
+            gptFamLabel.Anchor = AnchorStyles.None;
+            gptFamLabel.Font = new Font("Segoe UI", 12F);
+            gptFamLabel.ForeColor = Color.WhiteSmoke;
+            gptFamLabel.Location = new Point(26, 337);
+            gptFamLabel.Name = "gptFamLabel";
+            gptFamLabel.Size = new Size(764, 135);
+            gptFamLabel.TabIndex = 5;
+            gptFamLabel.Text = "Twra pobieranie danych...";
+            gptFamLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // labelTestowyu
             // 
@@ -442,6 +458,7 @@
         private DateTimePicker wybranaDataDateTimePicker;
         private Label labelWybranaData;
         private Label labelTestowyu;
-        private Label label1;
+        private Label gptFamLabel;
+        private Label label2;
     }
 }
