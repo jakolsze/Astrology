@@ -13,18 +13,53 @@ namespace Astrology_Desktop.Forms
 {
     public partial class FormZe : Form
     {
-        private DateTime data = welcome.instance.wybranaData;
+        private DateTime dataZodiak = welcome.instance.wybranaData;
         public FormZe()
         {
             InitializeComponent();
-            if (data.Month == 07)
+            switch (dataZodiak.Month, dataZodiak.Day)
             {
-                pictureBox1.Image = zodiac.leo;
+                case (3, >= 21) or (4, <= 19):
+                    zodiacPicture.Image = zodiac.aries;
+                    break;
+                case (4, >= 20) or (5, <= 20):
+                    zodiacPicture.Image = zodiac.taurus;
+                    break;
+                case (5, >= 21) or (6, <= 21):
+                    zodiacPicture.Image = zodiac.gemini;
+                    break;
+                case (6, >= 22) or (7, <= 22):
+                    zodiacPicture.Image = zodiac.cancer;
+                    break;
+                case (7, >= 23) or (8, <= 22):
+                    zodiacPicture.Image = zodiac.leo;
+                    break;
+                case (8, >= 23) or (9, <= 22):
+                    zodiacPicture.Image = zodiac.virgo;
+                    break;
+                case (9, >= 23) or (10, <= 23):
+                    zodiacPicture.Image = zodiac.libra;
+                    break;
+                case (10, >= 24) or (11, <= 22):
+                    zodiacPicture.Image = zodiac.scorpio;
+                    break;
+                case (11, >= 23) or (12, <= 21):
+                    zodiacPicture.Image = zodiac.sagitarius;
+                    break;
+                case (12, >= 22) or (1, <= 19):
+                    zodiacPicture.Image = zodiac.capricorn;
+                    break;
+                case (1, >= 20) or (2, <= 18):
+                    zodiacPicture.Image = zodiac.aquarius;
+                    break;
+                case (2, >= 19) or (3, <= 20):
+                    zodiacPicture.Image = zodiac.pisces;
+                    break;
+                default:
+                    zodiacPicture.Image = Properties.Resources.astrology_logo_small;
+                    break;
             }
-            if (data.Month == 06)
-            {
-                pictureBox1.Image = zodiac.gemini;
-            }
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

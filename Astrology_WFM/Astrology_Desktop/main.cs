@@ -1,8 +1,9 @@
-
+﻿
 using Astrology_Desktop.Forms;
 using FontAwesome.Sharp;
 using System.Drawing.Text;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace Astrology_Desktop
 {
@@ -13,9 +14,7 @@ namespace Astrology_Desktop
         private Panel leftBorderBtn;
         private IconButton currentBtn;
         private Form currentChildForm;
-        public static main instance; 
-        private String wybranaDataStringPassed = welcome.instance.WybranaDataString;
-        private DateTime wybranaDataPassed = welcome.instance.wybranaData; 
+        public static main instance;
         public main()
         {
             InitializeComponent();
@@ -31,6 +30,20 @@ namespace Astrology_Desktop
             //this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             this.StartPosition = FormStartPosition.CenterScreen;
             Welcome_Load();
+            // Utwórz nowy obiekt ToolTip
+            ToolTip toolTip1 = new ToolTip();
+
+            // Ustaw czas trwania dymka
+            toolTip1.AutoPopDelay = 5000;
+            toolTip1.InitialDelay = 500;
+            toolTip1.ReshowDelay = 500;
+
+            // Ustaw, aby dymek był zawsze widoczny
+            toolTip1.ShowAlways = true;
+
+            // Ustaw tekst dymka dla pictureBox1
+            toolTip1.SetToolTip(this.homeBtn, "Wybierz nową datę");
+
         }
 
         private struct RGBColors
@@ -68,9 +81,11 @@ namespace Astrology_Desktop
 
             }
         }
-        private void Welcome_Load()
+        public void Welcome_Load()
         {
             wybranaDataDateTimePicker.Value = welcome.instance.wybranaData;
+            label1.Text = wybranaDataDateTimePicker.Value.ToString("dd-MM-yyyy");
+
         }
 
         private void DisableButton()
@@ -195,5 +210,6 @@ namespace Astrology_Desktop
         {
             WindowState = FormWindowState.Minimized;
         }
+
     }
 }

@@ -28,19 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            zodiacPicture = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)zodiacPicture).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // zodiacPicture
             // 
-            pictureBox1.Image = Properties.Resources.astrology_logo_small;
-            pictureBox1.Location = new Point(55, 32);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(966, 504);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            zodiacPicture.Location = new Point(0, 0);
+            zodiacPicture.Name = "zodiacPicture";
+            zodiacPicture.Size = new Size(813, 456);
+            zodiacPicture.SizeMode = PictureBoxSizeMode.AutoSize;
+            zodiacPicture.TabIndex = 0;
+            zodiacPicture.TabStop = false;
             // 
             // FormZe
             // 
@@ -48,15 +47,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(9, 26, 80);
             ClientSize = new Size(813, 456);
-            Controls.Add(pictureBox1);
+            Controls.Add(zodiacPicture);
             Name = "FormZe";
             Text = "FormZe";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)zodiacPicture).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private PictureBox zodiacPicture;
     }
 }

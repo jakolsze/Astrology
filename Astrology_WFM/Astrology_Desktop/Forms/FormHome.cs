@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Astrology_Desktop.Forms
 {
@@ -20,9 +21,11 @@ namespace Astrology_Desktop.Forms
         private void resetButton_Click(object sender, EventArgs e)
         {
             welcome.instance.wybranaData = resetDateTimePicker.Value;
-            main form = new main();
             this.Hide();
-            form.Show();
+            main.instance.Close();
+            main newForm = new main(); // Tworzenie nowego formularza
+            newForm.Show();
+                        
         }
     }
 }
