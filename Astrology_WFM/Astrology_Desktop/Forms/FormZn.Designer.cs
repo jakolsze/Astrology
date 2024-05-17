@@ -28,17 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
+            label1 = new Label();
+            pictureBox1 = new PictureBox();
+            labelOpis = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // listBox1
+            // label1
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(326, 204);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 94);
-            listBox1.TabIndex = 0;
+            label1.Anchor = AnchorStyles.None;
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 16F);
+            label1.ForeColor = Color.WhiteSmoke;
+            label1.Location = new Point(236, 353);
+            label1.Name = "label1";
+            label1.Size = new Size(71, 30);
+            label1.TabIndex = 1;
+            label1.Text = "label1";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Anchor = AnchorStyles.None;
+            pictureBox1.Location = new Point(235, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(320, 320);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 2;
+            pictureBox1.TabStop = false;
+            // 
+            // labelOpis
+            // 
+            labelOpis.Anchor = AnchorStyles.None;
+            labelOpis.AutoSize = true;
+            labelOpis.Font = new Font("Segoe UI", 12F);
+            labelOpis.ForeColor = Color.WhiteSmoke;
+            labelOpis.Location = new Point(70, 409);
+            labelOpis.Name = "labelOpis";
+            labelOpis.Size = new Size(75, 21);
+            labelOpis.TabIndex = 3;
+            labelOpis.Text = "labelOpis";
+            labelOpis.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // FormZn
             // 
@@ -46,14 +76,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(9, 26, 80);
             ClientSize = new Size(813, 456);
-            Controls.Add(listBox1);
+            Controls.Add(labelOpis);
+            Controls.Add(pictureBox1);
+            Controls.Add(label1);
             Name = "FormZn";
             Text = "FormZn";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-
-        private ListBox listBox1;
+        private Label label1;
+        private PictureBox pictureBox1;
+        private Label labelOpis;
     }
 }

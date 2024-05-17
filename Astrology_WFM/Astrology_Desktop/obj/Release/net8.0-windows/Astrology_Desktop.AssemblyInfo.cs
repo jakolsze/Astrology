@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Astrology_Desktop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd6c5570dc3f7db0d87ee62ca6b98ec1b068dc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Astrology_Desktop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Astrology_Desktop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

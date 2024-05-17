@@ -28,18 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            chinesePicture = new PictureBox();
+            labelZch = new Label();
+            ((System.ComponentModel.ISupportInitialize)chinesePicture).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // chinesePicture
             // 
-            pictureBox1.Image = Properties.Resources.astrology_logo_small;
-            pictureBox1.Location = new Point(425, 205);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(266, 174);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            chinesePicture.Anchor = AnchorStyles.None;
+            chinesePicture.Image = Properties.Resources.astrology_logo_small;
+            chinesePicture.Location = new Point(232, 82);
+            chinesePicture.Name = "chinesePicture";
+            chinesePicture.Size = new Size(320, 320);
+            chinesePicture.SizeMode = PictureBoxSizeMode.StretchImage;
+            chinesePicture.TabIndex = 0;
+            chinesePicture.TabStop = false;
+            // 
+            // labelZch
+            // 
+            labelZch.Anchor = AnchorStyles.None;
+            labelZch.AutoSize = true;
+            labelZch.Font = new Font("Segoe UI", 16F);
+            labelZch.ForeColor = Color.WhiteSmoke;
+            labelZch.Location = new Point(318, 20);
+            labelZch.Name = "labelZch";
+            labelZch.RightToLeft = RightToLeft.Yes;
+            labelZch.Size = new Size(71, 30);
+            labelZch.TabIndex = 1;
+            labelZch.Text = "label1";
             // 
             // FormZch
             // 
@@ -47,15 +63,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(9, 26, 80);
             ClientSize = new Size(813, 456);
-            Controls.Add(pictureBox1);
+            Controls.Add(labelZch);
+            Controls.Add(chinesePicture);
             Name = "FormZch";
             Text = "FormZch";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chinesePicture).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
+        private PictureBox chinesePicture;
+        private Label labelZch;
     }
 }

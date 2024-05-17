@@ -9,6 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Resources\zodiac - Copy\**" />
+    <EmbeddedResource Remove="Resources\zodiac - Copy\**" />
+    <None Remove="Resources\zodiac - Copy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
   </ItemGroup>

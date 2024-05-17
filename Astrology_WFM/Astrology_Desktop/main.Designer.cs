@@ -362,10 +362,11 @@
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F);
             label2.ForeColor = Color.WhiteSmoke;
-            label2.Location = new Point(253, 298);
+            label2.Location = new Point(285, 256);
             label2.Name = "label2";
             label2.Size = new Size(261, 21);
             label2.TabIndex = 6;
@@ -376,7 +377,7 @@
             gptFamLabel.Anchor = AnchorStyles.None;
             gptFamLabel.Font = new Font("Segoe UI", 12F);
             gptFamLabel.ForeColor = Color.WhiteSmoke;
-            gptFamLabel.Location = new Point(26, 337);
+            gptFamLabel.Location = new Point(27, 297);
             gptFamLabel.Name = "gptFamLabel";
             gptFamLabel.Size = new Size(764, 135);
             gptFamLabel.TabIndex = 5;
@@ -385,20 +386,22 @@
             // 
             // labelTestowyu
             // 
+            labelTestowyu.Anchor = AnchorStyles.None;
             labelTestowyu.AutoSize = true;
             labelTestowyu.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTestowyu.ForeColor = Color.WhiteSmoke;
-            labelTestowyu.Location = new Point(284, 313);
+            labelTestowyu.Location = new Point(285, 273);
             labelTestowyu.Name = "labelTestowyu";
             labelTestowyu.Size = new Size(0, 25);
             labelTestowyu.TabIndex = 4;
             // 
             // labelWybranaData
             // 
+            labelWybranaData.Anchor = AnchorStyles.None;
             labelWybranaData.AutoSize = true;
             labelWybranaData.Font = new Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelWybranaData.ForeColor = Color.WhiteSmoke;
-            labelWybranaData.Location = new Point(157, 118);
+            labelWybranaData.Location = new Point(173, 80);
             labelWybranaData.Name = "labelWybranaData";
             labelWybranaData.Size = new Size(470, 50);
             labelWybranaData.TabIndex = 3;
@@ -406,7 +409,9 @@
             // 
             // wybranaDataDateTimePicker
             // 
-            wybranaDataDateTimePicker.Location = new Point(294, 215);
+            wybranaDataDateTimePicker.Anchor = AnchorStyles.None;
+            wybranaDataDateTimePicker.Enabled = false;
+            wybranaDataDateTimePicker.Location = new Point(310, 195);
             wybranaDataDateTimePicker.Name = "wybranaDataDateTimePicker";
             wybranaDataDateTimePicker.Size = new Size(200, 23);
             wybranaDataDateTimePicker.TabIndex = 2;

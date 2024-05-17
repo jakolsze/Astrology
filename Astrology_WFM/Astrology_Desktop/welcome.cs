@@ -18,6 +18,7 @@ namespace Astrology_Desktop
         public DateTime wybranaData;
         public int flag;
         public string pamiec;
+        public string gpt_api_key = "";
         public welcome()
         {
             InitializeComponent();

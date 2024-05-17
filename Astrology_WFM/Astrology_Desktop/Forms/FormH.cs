@@ -13,6 +13,7 @@ namespace Astrology_Desktop.Forms
 {
     public partial class FormH : Form
     {
+        string gpt_model = "gpt-3.5-turbo";
         public FormH()
         {
             InitializeComponent();
@@ -26,14 +27,14 @@ namespace Astrology_Desktop.Forms
                 string kot = welcome.instance.wybranaData.ToString("dd-MM");
                 string zwierzeta = ". Ogranicz się do 5 zdań.";
                 string query = pies + kot + zwierzeta;
-                
 
-                OpenAIClient client = new OpenAIClient("sk-proj-hs2lXSTjAWNllnWm6PHET3BlbkFJmomnrkPU1T9zzwUkG9oe");
+
+                OpenAIClient client = new OpenAIClient(welcome.instance.gpt_api_key);
                 // Przygotowanie opcji dla zapytania
 
                 var chatCompletionsOptions = new ChatCompletionsOptions()
                 {
-                    DeploymentName = "gpt-3.5-turbo", // Use DeploymentName for "model" with non-Azure clients
+                    DeploymentName = gpt_model, // Use DeploymentName for "model" with non-Azure clients
                     Messages =
                   {
                       new ChatRequestSystemMessage(query),
@@ -54,6 +55,16 @@ namespace Astrology_Desktop.Forms
             {
                 labelH.Text = welcome.instance.pamiec;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            gpt_model = comboBox1.Text;
+            welcome.instance.flag = 0;
+            this.Controls.Clear(); // Usuwa wszystkie kontrolki z formularza
+            this.InitializeComponent(); // Ponownie inicjalizuje wszystkie kontrolki na formularzu
+            this.chatgpt();
+
         }
     }
 }

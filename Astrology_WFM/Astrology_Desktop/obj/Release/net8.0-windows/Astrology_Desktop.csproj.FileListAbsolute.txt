@@ -5,7 +5,6 @@ C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\Astrology_Desktop.pdb
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\FontAwesome.Sharp.dll
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.csproj.AssemblyReference.cache
-C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.Form1.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.Forms.FormC.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.Forms.FormH.resources
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.Forms.FormHome.resources
@@ -25,3 +24,12 @@ C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.pdb
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.genruntimeconfig.cache
 C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\ref\Astrology_Desktop.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\Azure.AI.OpenAI.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\Azure.Core.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\System.ClientModel.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\bin\Release\net8.0-windows\System.Memory.Data.dll
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.main.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.welcome.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.zodiac.resources
+C:\Users\olsze\Documents\Projekty\Astrology\Astrology_WFM\Astrology_Desktop\obj\Release\net8.0-windows\Astrology_Desktop.sourcelink.json

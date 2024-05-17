@@ -46,6 +46,7 @@
             button1.TabIndex = 0;
             button1.Text = "Potwierdź";
             button1.UseVisualStyleBackColor = true;
+            button1.UseWaitCursor = true;
             button1.Click += button1_Click;
             // 
             // dateTimePicker1
@@ -60,11 +61,11 @@
             // 
             labelTitle.Anchor = AnchorStyles.None;
             labelTitle.AutoSize = true;
-            labelTitle.Font = new Font("Arial Rounded MT Bold", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelTitle.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTitle.ForeColor = Color.WhiteSmoke;
-            labelTitle.Location = new Point(7, 9);
+            labelTitle.Location = new Point(20, 24);
             labelTitle.Name = "labelTitle";
-            labelTitle.Size = new Size(351, 28);
+            labelTitle.Size = new Size(334, 32);
             labelTitle.TabIndex = 3;
             labelTitle.Text = "Witaj w programie Astrology!";
             // 
@@ -84,7 +85,7 @@
             // 
             pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Image = Properties.Resources.astrology_logo_small;
-            pictureBox1.Location = new Point(109, 66);
+            pictureBox1.Location = new Point(112, 93);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(160, 155);
             pictureBox1.TabIndex = 5;

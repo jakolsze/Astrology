@@ -222,7 +222,7 @@ namespace Astrology_Desktop
             string query = pies + kot;
 
 
-            OpenAIClient client = new OpenAIClient("sk-proj-hs2lXSTjAWNllnWm6PHET3BlbkFJmomnrkPU1T9zzwUkG9oe");
+            OpenAIClient client = new OpenAIClient(welcome.instance.gpt_api_key);
             // Przygotowanie opcji dla zapytania
 
             var chatCompletionsOptions = new ChatCompletionsOptions()
