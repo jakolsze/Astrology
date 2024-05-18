@@ -16,11 +16,10 @@ namespace Astrology_Desktop.Forms
         public FormZn()
         {
             InitializeComponent();
-            string numer = SumDigitsInDateTime();
-            label1.Text = "Twoja liczba numerologiczna to: " + numer;
-            int let = Convert.ToInt32(numer);
-            //int let = int.Parse(label1.Text);
-            switch (let)
+            int var = ObliczLiczbeNumerologiczna(welcome.instance.wybranaData);
+            label1.Text = "Twoja liczba numerologiczna to: " + var;
+            int let = Convert.ToInt32(var);
+            switch (var)
             {
                 case 1:
                     pictureBox1.Image = zodiac._1;
@@ -64,30 +63,14 @@ namespace Astrology_Desktop.Forms
                     break;
             }
         }
-        public string SumDigitsInDateTime()
+        public int ObliczLiczbeNumerologiczna(DateTime data)
         {
-            // Konwersja DateTime na string
-            string dateTimeString = welcome.instance.wybranaData.ToString("yyyyMMdd");
-
-            // Sumowanie wszystkich cyfr w stringu
-            int sum = 0;
-            foreach (char c in dateTimeString)
+            int suma = data.Day + data.Month + data.Year;
+            while (suma > 9)
             {
-                if (char.IsDigit(c))
-                {
-                    sum += c - '0'; // Konwersja char na int i dodanie do sumy
-                }
+                suma = suma.ToString().Sum(c => c - '0');
             }
-            int suma = 0;
-                while (sum != 0)
-                {
-                    suma += sum % 10;
-                    sum /= 10;
-                }
-                int sumak = Math.Abs(suma);
-
-            string wynik = sumak.ToString();
-            return wynik; // Zwrócenie sumy cyfr
+            return suma;
         }
 
     }

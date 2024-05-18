@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\forms\\formzn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formzn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\forms\\formzn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formzn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormZn.cs",
+              "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZn.cs",
+              "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormZn.cs",
+              "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZn.cs",
+              "RelativeToolTip": "Astrology_Desktop\\Forms\\FormZn.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T10:46:24.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormZn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZn.cs",
+              "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormZn.cs",
+              "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZn.cs [Design]",
+              "RelativeToolTip": "Astrology_Desktop\\Forms\\FormZn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T10:46:11.231Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -42,8 +73,7 @@
               "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\welcome.cs [Design]",
               "RelativeToolTip": "Astrology_Desktop\\welcome.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T22:08:32.101Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T22:08:32.101Z"
             }
           ]
         }
