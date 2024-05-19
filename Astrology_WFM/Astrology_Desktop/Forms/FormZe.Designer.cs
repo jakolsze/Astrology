@@ -51,7 +51,7 @@
             labelZodiac.ForeColor = Color.WhiteSmoke;
             labelZodiac.Location = new Point(409, 109);
             labelZodiac.Name = "labelZodiac";
-            labelZodiac.Size = new Size(340, 279);
+            labelZodiac.Size = new Size(340, 338);
             labelZodiac.TabIndex = 1;
             labelZodiac.Text = "label1";
             // 
@@ -61,7 +61,7 @@
             labelTitle.AutoSize = true;
             labelTitle.Font = new Font("Segoe UI", 16F);
             labelTitle.ForeColor = Color.WhiteSmoke;
-            labelTitle.Location = new Point(79, 25);
+            labelTitle.Location = new Point(41, 26);
             labelTitle.Name = "labelTitle";
             labelTitle.Size = new Size(71, 30);
             labelTitle.TabIndex = 2;

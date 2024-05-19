@@ -46,7 +46,6 @@
             button1.TabIndex = 0;
             button1.Text = "Potwierdź";
             button1.UseVisualStyleBackColor = true;
-            button1.UseWaitCursor = true;
             button1.Click += button1_Click;
             // 
             // dateTimePicker1

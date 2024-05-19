@@ -370,7 +370,7 @@
             label2.Name = "label2";
             label2.Size = new Size(261, 21);
             label2.TabIndex = 6;
-            label2.Text = "Slawne osoby urodzone w tym dniu:";
+            label2.Text = "Sławne osoby urodzone w tym dniu:";
             // 
             // gptFamLabel
             // 
