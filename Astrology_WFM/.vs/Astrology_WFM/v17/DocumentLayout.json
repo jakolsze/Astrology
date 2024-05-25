@@ -7,15 +7,27 @@
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\forms\\formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|c:\\users\\olsze\\documents\\projekty\\astrology\\astrology_wfm\\astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D40A8C1-0DE8-471E-95DC-A70B65AF4685}|Astrology_Desktop\\Astrology_Desktop.csproj|solutionrelative:astrology_desktop\\forms\\formze.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,35 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormHome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormHome.cs",
+              "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormHome.cs",
+              "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormHome.cs [Design]",
+              "RelativeToolTip": "Astrology_Desktop\\Forms\\FormHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T21:31:03.909Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormH.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormH.cs",
+              "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormH.cs",
+              "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormH.cs [Design]",
+              "RelativeToolTip": "Astrology_Desktop\\Forms\\FormH.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T21:30:54.385Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "welcome.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\welcome.cs",
+              "RelativeDocumentMoniker": "Astrology_Desktop\\welcome.cs",
+              "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\welcome.cs [Design]",
+              "RelativeToolTip": "Astrology_Desktop\\welcome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T21:29:57.14Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\main.cs",
               "RelativeDocumentMoniker": "Astrology_Desktop\\main.cs",
               "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\main.cs [Design]",
               "RelativeToolTip": "Astrology_Desktop\\main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:12:52.988Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-19T14:12:52.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FormZe.cs [Design]",
               "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZe.cs",
               "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormZe.cs",
               "ToolTip": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZe.cs [Design]",
               "RelativeToolTip": "Astrology_Desktop\\Forms\\FormZe.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:12:15.044Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-19T14:12:15.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FormZe.cs",
               "DocumentMoniker": "C:\\Users\\olsze\\Documents\\Projekty\\Astrology\\Astrology_WFM\\Astrology_Desktop\\Forms\\FormZe.cs",
               "RelativeDocumentMoniker": "Astrology_Desktop\\Forms\\FormZe.cs",
@@ -62,8 +108,7 @@
               "RelativeToolTip": "Astrology_Desktop\\Forms\\FormZe.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAgwFYAAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T14:03:53.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T14:03:53.691Z"
             },
             {
               "$type": "Document",

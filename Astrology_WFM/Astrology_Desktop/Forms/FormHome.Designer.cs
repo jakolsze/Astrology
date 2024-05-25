@@ -37,6 +37,8 @@
             // 
             resetDateTimePicker.Anchor = AnchorStyles.None;
             resetDateTimePicker.Location = new Point(307, 237);
+            resetDateTimePicker.MaxDate = new DateTime(2101, 1, 1, 0, 0, 0, 0);
+            resetDateTimePicker.MinDate = new DateTime(1901, 1, 1, 0, 0, 0, 0);
             resetDateTimePicker.Name = "resetDateTimePicker";
             resetDateTimePicker.Size = new Size(200, 23);
             resetDateTimePicker.TabIndex = 0;

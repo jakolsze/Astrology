@@ -52,9 +52,12 @@
             // 
             dateTimePicker1.Anchor = AnchorStyles.None;
             dateTimePicker1.Location = new Point(49, 293);
+            dateTimePicker1.MaxDate = new DateTime(2101, 1, 1, 0, 0, 0, 0);
+            dateTimePicker1.MinDate = new DateTime(1901, 1, 1, 0, 0, 0, 0);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(264, 23);
             dateTimePicker1.TabIndex = 1;
+            dateTimePicker1.Value = new DateTime(1901, 1, 1, 0, 0, 0, 0);
             // 
             // labelTitle
             // 
